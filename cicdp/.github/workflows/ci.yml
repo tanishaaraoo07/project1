@@ -26,8 +26,8 @@ jobs:
       with:
         context: .
         push: true
-        tags: yourusername/ci-cd-app:latest
+        tags: tanishaaraoo07/ci-cd-app:latest
 
     - name: Run container (test deploy)
       run: |
-        docker run -d -p 5000:5000 yourusername/ci-cd-app:latest
+        docker run -d -p 5000:5000 tanishaaraoo07/ci-cd-app:latest
